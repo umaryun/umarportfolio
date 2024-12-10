@@ -39,9 +39,12 @@ import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
 
 import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
+import ehealth from './company/ehealth.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import shamrock from './company/shamrock.png';
+import headstarter from './company/headstarter.png';
+import hng from './company/hng.png'
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -49,8 +52,15 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import shopt from './projects/shopt.jpg';
+import xClone from './projects/x-clone.jpg';
+import chowtime from './projects/chowtime.jpg';
+import password from './projects/password.jpg';
+import pantry from './projects/pantry_edited.jpg';
+
 
 export {
+
   bwmap,
   nairobi,
   whiteabstract,
@@ -91,9 +101,17 @@ export {
   math,
   movie,
   nyeusi,
+  pantry,
   space,
   coverhunt,
-  dcc,
+  ehealth,
+  headstarter,
+  hng,
   kelhel,
+  shamrock,
+  xClone,
+  chowtime,
+  shopt,
   microverse,
+  password,
 };

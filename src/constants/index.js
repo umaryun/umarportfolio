@@ -24,9 +24,17 @@ import {
   nyeusi,
   space,
   coverhunt,
-  dcc,
+  ehealth,
+  shamrock,
+  headstarter,
+  hng,
+  shopt,
   kelhel,
+  pantry,
   microverse,
+  xClone,
+  chowtime,
+  password,
 } from '../assets';
 
 export const navLinks = [
@@ -58,7 +66,7 @@ const services = [
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Software Testing',
     icon: prototyping,
   },
 ];
@@ -97,10 +105,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
     name: 'graphql',
     icon: graphql,
   },
@@ -124,92 +128,92 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'ICT Services',
+    company_name: 'eHealth Africa',
+    icon: ehealth,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Sep 2024 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Software Engineer',
+    company_name: 'Shamrock Innovations',
+    icon: shamrock,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'July 2024 - Oct 2024',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Software Engineer',
+    company_name: 'Headstarter AI',
+    icon: headstarter,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'May 2024 - July 2024',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
+    title: 'Backend engineer',
+    company_name: 'HNG',
+    icon: hng,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Jan 2024 - April 2024',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'AI assistant',
+    description: 'A customer service assistant for an e commerce start up.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'next JS',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'material UI',
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: shopt,
+    repo: 'https://github.com/umaryun/shopIt-AI-assistant',
+    demo: 'https://shop-it-ai-assistant.vercel.app/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'X clone',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A clone of the renowned X website, replicating its core features and user experience.',
     tags: [
       {
-        name: 'react',
+        name: 'html',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'javascript',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'css',
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: xClone,
+    repo: 'https://github.com/umaryun/x-clone',
+    demo: 'https://x-clone-two-silk.vercel.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Chowtime',
+    description: 'Your grocery list on the GO!. a synchronized shopping list app',
     tags: [
       {
-        name: 'nextjs',
+        name: 'javascript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'firebase',
         color: 'green-text-gradient',
       },
       {
@@ -217,14 +221,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: chowtime,
+    repo: 'https://github.com/umaryun/chowtime',
+    demo: 'https://chowtime-mu.vercel.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'password generator',
+    description: `A platform to generate an unlimited amount of secured selective passwords.`,
     tags: [
       {
         name: 'nextjs',
@@ -239,32 +243,32 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: password,
+    repo: 'https://github.com/umaryun/password-generator',
+    demo: 'https://password-generator-snowy-eight.vercel.app/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Pantry app',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'an inventory web app to keep track of items in the inventory.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'MaterialUi',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'firebase',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'NextJs',
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: pantry,
+    repo: 'https://github.com/umaryun/pantry',
+    demo: 'https://pantry-app-ochre.vercel.app/',
   },
 ];
 
